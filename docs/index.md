@@ -1,45 +1,44 @@
-# <Project Title>: <Modality & Tools> on <Dataset>
+# EEG: Sources (LORETA/eLORETA) + Directed Connectivity (Brainstorm PTE/dPTE)
 
-### What this project asks (2–3 lines)
-A crisp statement of the scientific question and why it matters.
+**Goal:** Localize sources with (e)LORETA and estimate directed connectivity (PTE/dPTE) between ROIs in a compact EEG dataset.
+
+---
+
+## Snapshot
+- **Dataset:** small EEG task or resting subset (tutorial-level)
+- **Local subset:** <N subjects> · **Disk:** small (hundreds of MB–~1 GB)
+- **Tools:** LORETA/eLORETA, Brainstorm (PTE/dPTE)
+- **Status:** <planned / in progress / complete>
+- **Last updated:** <YYYY-MM-DD>
 
 ---
 
 ## Data
-- **Source:** <dataset name + link> · **License/DUA:** <text>
-- **Subset used:** <n subjects/sessions> · **Approx disk:** <X GB> (raw) / <Y GB> (derivatives)
-- **Layout:** BIDS (if applicable)
-
-> We **do not** commit raw data to the repository. If needed, link to the public source and keep large artifacts out of git. (GitHub looks for an entry file in `/docs` such as `index.md` when you publish Pages from that folder.)
+- **Source:** <dataset link> (public).  
+- **What I downloaded:** subjects/sessions; montage info.  
+- **Layout:** per-subject folders.
 
 ---
 
 ## Pipeline (high-level)
-Preprocessing → Analysis → Statistics → QC  
-Tools: FreeSurfer / FSL / SPM + CAT12 / Brainstorm / EEGLAB / FieldTrip / BRAPH / MATLAB
-
-Confounds handled (examples): motion, age/sex, site.
+1) Preprocess (as in ERP project)  
+2) Source imaging: LORETA/eLORETA on averaged data  
+3) Connectivity: Brainstorm PTE/dPTE between chosen ROIs  
+4) Summarize directionality patterns
 
 ---
 
-## Results
-- 2–3 key figures (see `results/figures/`)
-- Report thresholds (e.g., FWE/FDR; cluster-permutation for M/EEG) and effect sizes.
+## Results (to be filled)
+- Figure: source maps (peak snapshots)  
+- Figure: directed connectivity graph (PTE/dPTE)
 
 ---
 
 ## Reproducibility
-- **Versions:** see `env/TOOL_VERSIONS.md`
-- **Steps to re-run:** bullet list of actions (no raw data)
-- **Known limits:** sample size, heterogeneity, compute
+- Versions in `env/TOOL_VERSIONS.md`.  
+- Steps: “Preprocess → sources → PTE/dPTE → figures.”  
+- Limitations: choice of inverse/ROIs affects results.
 
 ---
 
-## Cite this work
-A `CITATION.cff` is included—GitHub renders a “Cite this repository” box automatically.  
-When you cut a Release and connect to Zenodo, add the DOI badge here.
-
----
-
-### Author & links
-**Rene Andrade Rey** · 🧪 ORCID: https://orcid.org/0000-0001-5627-579X · 🌐 Google Scholar: https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ
+**Author:** Rene Andrade Rey · 🧪 ORCID: https://orcid.org/0000-0001-5627-579X · 🌐 Scholar: https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ
