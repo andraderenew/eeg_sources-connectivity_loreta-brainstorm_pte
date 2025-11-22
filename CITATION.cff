@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-title: "Neuroimaging Project"
+title: "EEG — Sources (LORETA/eLORETA) + Directed Connectivity (Brainstorm PTE/dPTE)"
 message: "If you use this project, please cite it as below."
 type: software
 authors:
   - family-names: "Andrade Rey"
     given-names: "Rene"
     orcid: "https://orcid.org/0000-0001-5627-579X"
+abstract: "Source imaging with (e)LORETA and directed connectivity (PTE/dPTE) between ROIs in a compact EEG dataset."
 license: "MIT"
-repository-code: "https://github.com/andraderenew/<repo>"
+repository-code: "https://github.com/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte"
 url: "https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ"
