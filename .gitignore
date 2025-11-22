@@ -1,0 +1,44 @@
+# General
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# MATLAB
+*.asv
+*.m~
+*.mex*
+# *.mat   # descomenta si quieres excluir todos los .mat
+
+# FreeSurfer & FSL (derivados pesados)
+surf/
+label/
+mri/
+stats/
+fsaverage*
+*.mgz
+*.nii
+*.nii.gz
+*feat/
+*ica/
+*.edat2
+*.fsf
+
+# Brainstorm/EEGLAB/FieldTrip
+brainstorm_db/
+derivatives/
+cache/
+*.set
+*.fdt
+*.bdf
+*.vhdr
+*.eeg
+*.vmrk
+
+# Proyecto
+/data/
+dataset/
+bids/
+derivatives/
+results/raw_exports/
+reports/tmp/
