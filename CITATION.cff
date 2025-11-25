@@ -10,3 +10,5 @@ abstract: "Source imaging with (e)LORETA and directed connectivity (PTE/dPTE) be
 license: "MIT"
 repository-code: "https://github.com/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte"
 url: "https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ"
+
+doi: "10.5281/zenodo.17715115"
