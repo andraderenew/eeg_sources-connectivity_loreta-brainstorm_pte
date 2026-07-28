@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 title: "EEG — Source imaging and directed connectivity with Brainstorm"
-message: "If you use this project, please cite it as below."
+message: "Please cite this software using the metadata below."
 type: software
 authors:
   - family-names: "Andrade Rey"
     given-names: "Rene"
     orcid: "https://orcid.org/0000-0001-5627-579X"
-abstract: "Portfolio scaffold for EEG source imaging with LORETA or eLORETA and directed connectivity with Brainstorm PTE or dPTE. The repository currently describes a planned workflow and does not claim completed source or connectivity results."
+abstract: "Portfolio scaffold for EEG source imaging with LORETA or eLORETA and directed connectivity with Brainstorm PTE or dPTE. The repository describes a planned workflow and does not claim completed source or connectivity results."
 license: "MIT"
 repository-code: "https://github.com/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte"
 url: "https://github.com/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte"

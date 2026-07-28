@@ -7,9 +7,12 @@
     }
   ],
   "title": "EEG — Source imaging and directed connectivity with Brainstorm",
-  "description": "Portfolio scaffold for EEG source imaging with LORETA or eLORETA and directed connectivity with Brainstorm PTE or dPTE. The repository currently describes a planned workflow and does not claim completed source or connectivity results.",
+  "description": "Portfolio scaffold for EEG source imaging with LORETA or eLORETA and directed connectivity with Brainstorm PTE or dPTE. The repository describes a planned workflow and does not claim completed source or connectivity results.",
   "version": "0.1.1",
+  "upload_type": "software",
   "access_right": "open",
+  "license": "mit",
+  "language": "eng",
   "keywords": [
     "EEG",
     "Brainstorm",
@@ -20,9 +23,6 @@
     "directed connectivity",
     "neuroimaging"
   ],
-  "license": "mit",
-  "upload_type": "software",
-  "language": "eng",
   "notes": "Portfolio scaffold. The archived repository documents a planned workflow and does not claim completed scientific results.",
   "related_identifiers": [
     {
