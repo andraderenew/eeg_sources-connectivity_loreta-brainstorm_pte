@@ -1,0 +1,34 @@
+{
+  "creators": [
+    {
+      "name": "Andrade Rey, Rene",
+      "orcid": "0000-0001-5627-579X",
+      "type": "ProjectMember"
+    }
+  ],
+  "title": "EEG — Source imaging and directed connectivity with Brainstorm",
+  "description": "Portfolio scaffold for EEG source imaging with LORETA or eLORETA and directed connectivity with Brainstorm PTE or dPTE. The repository currently describes a planned workflow and does not claim completed source or connectivity results.",
+  "version": "0.1.1",
+  "access_right": "open",
+  "keywords": [
+    "EEG",
+    "Brainstorm",
+    "LORETA",
+    "eLORETA",
+    "PTE",
+    "dPTE",
+    "directed connectivity",
+    "neuroimaging"
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "language": "eng",
+  "notes": "Portfolio scaffold. The archived repository documents a planned workflow and does not claim completed scientific results.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
