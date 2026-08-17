@@ -1,31 +1,31 @@
-# EEG — Sources (LORETA/eLORETA) + Directed Connectivity (Brainstorm PTE/dPTE)
-[![License](https://img.shields.io/github/license/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17715115-blue)](https://doi.org/10.5281/zenodo.17715115)
-[![Pages](https://img.shields.io/website?url=https%3A%2F%2Fandraderenew.github.io%2Feeg_sources-connectivity_loreta-brainstorm_pte%2F)](https://andraderenew.github.io/eeg_sources-connectivity_loreta-brainstorm_pte/)
-![Release](https://img.shields.io/github/v/release/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte?include_prereleases)
-![Last commit](https://img.shields.io/github/last-commit/andraderenew/eeg_sources-connectivity_loreta-brainstorm_pte)
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5627--579X-A6CE39)](https://orcid.org/0000-0001-5627-579X)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-4285F4)](https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ)
+# Superseded — EEG source-imaging and directed-connectivity scaffold
 
-**One-line:** Localize sources with (e)LORETA and estimate directed connectivity using Brainstorm PTE/dPTE.
+> **This repository is archived and does not represent a completed scientific analysis.**
 
-## Overview
-Source imaging with **LORETA/eLORETA** and **directed connectivity** (**PTE/dPTE** in Brainstorm) on a compact EEG subset.
+The repository was created as a planning scaffold for an EEG workflow combining LORETA/eLORETA source imaging with Brainstorm PTE/dPTE directed connectivity.
 
-## Data & subset
-See `DATA_SOURCES.md`. Suggested: <5 subjects>; small footprint (hundreds of MB–~1 GB).
+A repository audit found no project-specific processing scripts, result tables, source maps, connectivity matrices, or final figures. The tracked `results/` directories contain placeholders only. Local software installations include Brainstorm and FieldTrip connectivity/source-imaging functions, but these are software files rather than outputs of this project.
 
-## Pipeline
-Preproc (as in ERPs) → sources (LORETA/eLORETA) → directed connectivity (PTE/dPTE) between ROIs → figures.
+The planned workflow was therefore not completed and no source-localization or directed-connectivity result should be inferred from this repository.
 
-## Results (to be filled)
-- Source maps (peaks)  
-- Directed connectivity graph (PTE/dPTE)
+## Historical planned scope
 
-## Reproducibility
-- Versions: see `env/TOOL_VERSIONS.md`  
-- Steps: “Preprocess → sources → PTE/dPTE → figures.”  
-- Limits: inverse/ROI choices affect results
+The original concept included:
 
-## Cite this work
-See `CITATION.cff` (add DOI after first Release).
+- EEG preprocessing
+- LORETA/eLORETA source estimation
+- ROI-level PTE/dPTE directed connectivity in Brainstorm
+- source and connectivity figures
+
+These items are retained here only as historical project provenance. They are not presented as executed or validated analyses.
+
+## Status
+
+**Superseded / archived scaffold**
+
+No scientific results should be cited from this repository.
+
+## Author
+
+Rene Andrade Rey
+ORCID: 0000-0001-5627-579X
